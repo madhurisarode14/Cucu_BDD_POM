@@ -33,7 +33,7 @@ public class AcccountPageSteps {
         //String title = accountsPage.getAccountsPageTitle();
        // System.out.println("Accounts Page title is: " + title);
     }
-
+    // JustTest
     @Then("user gets accounts section")
     public void user_gets_accounts_section(DataTable sectionsTable) {
 
@@ -47,6 +47,7 @@ public class AcccountPageSteps {
         Assert.assertTrue(expAccountSectionsList.containsAll(actualAccountSectionsList));*/
 
     }
+    // JustTest
 
     @Then("accounts section count should be {int}")
     public void accounts_section_count_should_be(Integer expectedSectionCount) {
